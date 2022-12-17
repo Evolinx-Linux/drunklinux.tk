@@ -71,6 +71,10 @@
         <code>$ mkfs -t vfat /dev/sdb1<br>
             $ mkfs -t ext4 /dev/sdb2<br>
             $ e2label /dev/sdb2 drunk</code><br><br>
+		<h4 style="color:lightgreen;">Mounting</h4>
+		<code>$ mount /dev/sdb2 /mnt<br>
+            $ mkdir -vp /mnt/boot<br>
+            $ mount /dev/sdb1 /mnt/boot</code><br><br>
         <h4 style="color:lightgreen;">bottle-strap</h4>
         <code>
             $ cd /<br>
